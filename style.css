@@ -1,0 +1,288 @@
+/* viewport laptop size  */
+/*******************************************tag selectors***************************************  */
+body {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  color: #007065;
+  font-family: 'Sacramento', cursive;
+  margin-top: 0;
+  font-size: 3em;
+}
+
+h2, h3, h4, p {
+  margin-top: 20px;
+  font-family: 'Merriweather', serif;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 28px;
+}
+
+hr {
+  border: dotted #007065 6px;
+  border-bottom: none;
+  width: 4%;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+/* title section */
+/* navbar section */
+/* ***************************************class selectors******************************* */
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'ubuntu';
+  font-weight: bold;
+}
+
+.nav-item {
+  font-family: 'Montserrat-light';
+  font-size: 1.3rem;
+  padding: 0 18px;
+}
+
+/* greet section */
+.greet {
+  background-color: #b2fcff;
+  position: relative;
+  height: 528px;
+}
+
+.cloudTop {
+  position: relative;
+  left: 280px;
+  bottom: 3px;
+  width: 100px;
+  height: 100px;
+}
+
+.cloudBelow {
+  position: relative;
+  left: 170px;
+  bottom: 120px;
+  width: 100px;
+  height: 100px;
+}
+
+/* introduction */
+.circular {
+  border-radius: 50%;
+}
+
+/* MySkills */
+.skills {
+  height: 450px;
+  width: 850px;
+  display: block;
+  margin: 0 auto;
+}
+
+.skill_gif {
+  border-radius: 50%;
+  height: 160px;
+  width: 170px;
+  float: left;
+  margin: 20px 20px 0 10px;
+}
+
+.development {
+  text-align: left;
+  line-height: 1.5;
+  height: 170px;
+}
+
+.interests {
+  height: 150px;
+  text-align: left;
+  line-height: 1.5;
+  margin: 10px 0 10px 0;
+}
+
+.interest {
+  border-radius: 50%;
+  height: 150px;
+  width: 200px;
+  float: right;
+  margin: 0 20px 10px 20px;
+}
+
+/* bottom */
+.butn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+/* footer */
+.links {
+  margin-top: 20px;
+  background-color: #3498db;
+  height: 200px;
+}
+
+.space {
+  margin: 0 20px;
+}
+
+/* media queries for tab*/
+@media screen and (max-width:992px) {
+
+
+  /* *************************tag selectors********************* */
+  p {
+    font-size: 1.4rem;
+  }
+
+  /* ***************************************class selectors******************************* */
+  .cloudTop {
+    position: relative;
+    left: 230px;
+    bottom: 3px;
+  }
+
+  .cloudBelow {
+    position:absolute;
+    left:160px;
+    bottom:200px;
+  }
+
+  .mountain {
+    max-width: 90%;
+
+    position:absolute;
+    bottom:0;
+    left:45px;
+
+
+
+  }
+
+  /* myskills*/
+  .skills {
+    width: 75%;
+  }
+
+  .skill_gif {
+    float: left;
+    margin-right: 15px;
+  }
+
+  .development {
+    line-height: 1.5;
+  }
+
+  .interest {
+    float: left;
+    margin-top: 30px;
+  }
+
+  .interests {
+    line-height: 1.5;
+    margin-top: 250px;
+  }
+  /* ********************id selectors****************************** */
+  #myskills {
+    max-width: 100%;
+    height: 900px;
+  }
+
+  #hrow {
+    margin-top: 100px;
+  }
+}
+
+/* media queries for mobile*/
+@media screen and (max-width:767px) {
+
+
+
+  /* *************************tag selectors********************* */
+  p {
+    font-size: 1.4rem;
+  }
+
+  /* ***************************************class selectors******************************* */
+  .cloudTop {
+    position: relative;
+    left: 120px;
+    bottom: 3px;
+  }
+
+  .cloudBelow {
+    position: absolute;
+    left:50px;
+  }
+  .mountain{
+    left:25px;
+  }
+
+
+  /* myskills*/
+  .skills {
+    width:75%;
+    text-align: center;
+  }
+
+  .skill_gif {
+    float: none;
+  }
+
+  .development {
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .interest {
+    float: none;
+  }
+
+  .interests {
+    text-align:center;
+
+    line-height: 1.4;
+    margin: 600px 0 10px 0px;
+  }
+  /* ********************id selectors****************************** */
+  #myskills {
+    height: 1500px;
+    text-align: center;
+  }
+
+  #hrow {
+    margin-top: 100px;
+  }
+
+}
